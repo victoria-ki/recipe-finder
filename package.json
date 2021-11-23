@@ -1,0 +1,14 @@
+{
+  "name": "meal_finder_api_sass",
+  "version": "1.0.0",
+  "description": "Meal Finder Sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

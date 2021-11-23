@@ -1,0 +1,33 @@
+/* screen is 800px or less */
+@media (max-width: $max-width) {
+  .meals {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* screen is 700px or less */
+@media (max-width: 700px) {
+  .meals {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .meal {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  input[type="text"] {
+    width: 100%;
+  }
+
+  .meals {
+    grid-template-columns: 1fr;
+  }
+
+  .meal {
+    height: 250px;
+    width: 250px;
+  }
+}
